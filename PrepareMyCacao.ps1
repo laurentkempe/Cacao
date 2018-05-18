@@ -1,4 +1,4 @@
-*# Description: Boxstarter Script  
+# Description: Boxstarter Script  
 # Author: Laurent Kempé
 # Dev settings for my app development
 
