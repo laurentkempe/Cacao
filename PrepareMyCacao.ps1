@@ -30,7 +30,6 @@ $Packages = 'git',`
             '7zip',`
             'ngrok.portable',`
             'winscp',`
-            'putty',`
             'GoogleChrome',`
             'paint.net',`
             'rapidee',`
