@@ -17,7 +17,7 @@ Set-ItemProperty -Path HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\
 choco install -y Microsoft-Hyper-V-All -source windowsFeatures
 choco install -y Microsoft-Windows-Subsystem-Linux -source windowsfeatures
 
-#Define Packages to Install
+#--- Define Packages to Install ---
 $Packages = 'git',`
             'poshgit',`
             'visualstudiocode',`
@@ -39,7 +39,7 @@ $Packages = 'git',`
             'rufus',
             'openvpn'
 
-#Install Packages
+#--- Install Packages ---
 ForEach ($PackageName in $Packages)
 {choco install $PackageName -y}
 
