@@ -25,6 +25,7 @@ $Packages = 'git',`
             'nodejs',`
             'FiraCode',`
             'SourceTree',`
+            'snoop',`
             'keepass',`
             'cmdermini',`
             '7zip',`
