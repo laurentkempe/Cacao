@@ -1,3 +1,4 @@
+            'poshgit',`
 # Description: Boxstarter Script  
 # Author: Laurent Kempé
 # Dev settings for my app development
@@ -20,6 +21,7 @@ choco install -y Microsoft-Windows-Subsystem-Linux -source windowsfeatures
 #--- Define Packages to Install ---
 $Packages = 'git',`
             'poshgit',`
+            'p4merge',`
             'visualstudiocode',`
             'notepadplusplus',`
             'nodejs',`
