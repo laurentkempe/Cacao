@@ -20,7 +20,7 @@ choco install -y Microsoft-Windows-Subsystem-Linux -source windowsfeatures
 #--- Define Packages to Install ---
 $Packages = 'git',`
             'poshgit',`
-            'p4merge',`
+            'kdiff3',`
             'visualstudiocode',`
             'notepadplusplus',`
             'nodejs',`
