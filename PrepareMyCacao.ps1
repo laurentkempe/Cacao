@@ -17,6 +17,15 @@ Set-ItemProperty -Path HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\
 choco install -y Microsoft-Hyper-V-All -source windowsFeatures
 choco install -y Microsoft-Windows-Subsystem-Linux -source windowsfeatures
 
+#--- Visual Studio ---
+choco install visualstudio2017professional -y --package-parameters "--add Microsoft.VisualStudio.Component.Git" 
+Update-SessionEnvironment #refreshing env due to Git install
+
+choco install -y visualstudio2017-workload-manageddesktop
+choco install -y visualstudio2017-workload-netcoretools
+choco install -y visualstudio2017-workload-azure 
+choco install -y visualstudio2017-workload-visualstudioextension 
+
 #--- Define Packages to Install ---
 $Packages = 'git',`
             'poshgit',`
