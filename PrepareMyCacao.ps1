@@ -62,6 +62,11 @@ foreach ($app in $Applications) {
 choco install -y Microsoft-Hyper-V-All -source windowsFeatures
 choco install -y Microsoft-Windows-Subsystem-Linux -source windowsfeatures
 
+#--- Docker ---
+Enable-WindowsOptionalFeature -Online -FeatureName containers -All
+RefreshEnv
+choco install -y docker-for-windows
+
 #--- Visual Studio ---
 choco install visualstudio2017professional -y --package-parameters "--add Microsoft.VisualStudio.Component.Git" 
 Update-SessionEnvironment #refreshing env due to Git install
@@ -77,6 +82,7 @@ $Packages = 'git',`
             'kdiff3',`
             'resharper-ultimate-all /NoCpp',`
             'vscode',`
+            'vscode-docker',`
             'notepadplusplus',`
             'nodejs',`
             'FiraCode',`
