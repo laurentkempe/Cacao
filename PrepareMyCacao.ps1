@@ -21,6 +21,7 @@ choco install -y Microsoft-Windows-Subsystem-Linux -source windowsfeatures
 $Packages = 'git',`
             'poshgit',`
             'kdiff3',`
+            'resharper-ultimate-all /NoCpp',`
             'vscode',`
             'notepadplusplus',`
             'nodejs',`
