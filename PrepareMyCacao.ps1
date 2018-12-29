@@ -40,7 +40,8 @@ $Packages = 'git',`
             'sharex',`
             'SwissFileKnife',`
             'sysinternals',`
-            'rufus',
+            'windirstat',`
+            'rufus',`
             'openvpn'
 
 #--- Install Packages ---
