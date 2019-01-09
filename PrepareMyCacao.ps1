@@ -43,8 +43,6 @@ $Applications = @(
 	"*Solitaire*"
 	"Microsoft.MicrosoftStickyNotes"
 	"Microsoft.Office.Sway"
-	"Microsoft.ZuneMusic"
-	"Microsoft.ZuneVideo"
 	"Microsoft.NetworkSpeedTest"
 	"Microsoft.FreshPaint"
 	"Microsoft.Print3D"
