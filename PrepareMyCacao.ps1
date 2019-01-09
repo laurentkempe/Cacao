@@ -74,6 +74,8 @@ choco install -y visualstudio2017-workload-netcoretools
 choco install -y visualstudio2017-workload-azure 
 choco install -y visualstudio2017-workload-visualstudioextension 
 
+choco install -y netfx-4.7.1-devpack 
+
 #--- Define Packages to Install ---
 $Packages = 'git',`
             'poshgit',`
