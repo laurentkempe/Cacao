@@ -76,6 +76,8 @@ choco install -y visualstudio2017-workload-visualstudioextension
 
 choco install -y netfx-4.7.1-devpack 
 
+choco install gitdiffmargin
+
 #--- Define Packages to Install ---
 $Packages = 'git',`
             'poshgit',`
