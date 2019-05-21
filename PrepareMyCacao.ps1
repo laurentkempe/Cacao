@@ -66,13 +66,13 @@ RefreshEnv
 choco install -y docker-for-windows
 
 #--- Visual Studio ---
-choco install visualstudio2017professional -y --package-parameters "--add Microsoft.VisualStudio.Component.Git" 
+choco install visualstudio2019professional -y --package-parameters "--add Microsoft.VisualStudio.Component.Git" 
 Update-SessionEnvironment #refreshing env due to Git install
 
-choco install -y visualstudio2017-workload-manageddesktop
-choco install -y visualstudio2017-workload-netcoretools
-choco install -y visualstudio2017-workload-azure 
-choco install -y visualstudio2017-workload-visualstudioextension 
+choco install -y visualstudio2019-workload-manageddesktop
+choco install -y visualstudio2019-workload-netcoretools
+choco install -y visualstudio2019-workload-azure 
+choco install -y visualstudio2019-workload-visualstudioextension 
 
 choco install -y netfx-4.7.1-devpack 
 
