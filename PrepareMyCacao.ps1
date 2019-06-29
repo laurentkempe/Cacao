@@ -48,6 +48,9 @@ choco install -y visualstudio2019-workload-visualstudioextension
 choco install -y gitdiffmargin
 choco install -y resharper-ultimate-all --package-parameters="'/NoCpp'"
 
+#--- Get personal projects ---
+executeScript "PersonalProjects.ps1";
+
 Enable-UAC
 Enable-MicrosoftUpdate
 Install-WindowsUpdate -acceptEula
