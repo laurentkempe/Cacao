@@ -14,3 +14,5 @@ choco install -y fiddler
 choco install -y winscp
 choco install -y rapidee
 choco install -y snoop
+
+Install-Module -Force oh-my-posh
