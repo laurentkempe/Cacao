@@ -5,4 +5,4 @@ Copy-Item '~\projects\dotfiles\git\gitconfig.template' '~\.gitconfig.template'
 
 # Copy Powershell profile and modules
 
-Copy-Item '~\projects\dotfiles\WindowsPowerShell\*' '~\Documents\WindowsPowerShell\'
+Copy-Item -Recurse '~\projects\dotfiles\WindowsPowerShell\*' '~\Documents\WindowsPowerShell\'
