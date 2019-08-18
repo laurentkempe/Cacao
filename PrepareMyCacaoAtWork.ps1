@@ -26,7 +26,7 @@ executeScript "SystemConfiguration.ps1";
 executeScript "FileExplorerSettings.ps1";
 executeScript "RemoveDefaultApps.ps1";
 executeScript "CommonDevTools.ps1";
-executeScript "Browsers.ps1";
+#--- executeScript "Browsers.ps1";
 executeScript "WindowsTools.ps1";
 executeScript "Innoveo.ps1";
 
