@@ -4,6 +4,7 @@ choco install -y git --package-parameters="'/GitAndUnixToolsOnPath /WindowsTermi
 choco install -y poshgit
 choco install -y oh-my-posh
 choco install -y peco
+choco install -y gh
 choco install -y kdiff3
 choco install -y SourceTree
 choco install -y vscode
