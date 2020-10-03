@@ -35,7 +35,6 @@ choco install visualstudio2019professional -y --package-parameters "--add Micros
 Update-SessionEnvironment #refreshing env due to Git install
 
 choco install -y visualstudio2019-workload-manageddesktop
-choco install -y visualstudio2019-workload-netcoretools
 
 #--- Visual Studio extensions ---
 choco install -y gitdiffmargin
