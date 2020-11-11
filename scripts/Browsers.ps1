@@ -1,2 +1,2 @@
 #--- Browsers ---
-choco install -y googlechrome
+choco install microsoft-edge-insider-dev
